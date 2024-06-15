@@ -1,2 +1,2 @@
-# pyton
+# python
 python course in udemy 
