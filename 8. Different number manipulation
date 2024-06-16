@@ -1,0 +1,21 @@
+from math import*
+import math
+math.e
+print((10+20)*12/45)
+print("202")# 202 as a text
+print(202)#202 as a number
+age=25
+print("hello mt age is "+ str(age))# change from int to str
+print(max(1,5,3,7,9,4,12,36))
+print(min(1,5,3,7,9,4,12,36))
+print(pow(5,2))
+print(round(pow(5,3)/14))
+print(abs(-513))
+print(sqrt(25))
+print(factorial(5))
+print(degrees(sin(.5)))
+print(math.e)
+print(math.pi)
+print(exp(5))
+print(ceil(2.001))
+print(floor(2.9999))
