@@ -1,0 +1,6 @@
+age=input("whit is your age")# take input data
+name= input("whit is your name ")
+food=input("what do you want to eat")
+drink=input("what do you want to drink ")
+print("Hello , my name Is "+ name+" I am" +age + " I want to eat "+food + " I want to drink "+drInk)
+
