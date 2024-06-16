@@ -1,0 +1,10 @@
+print("I love pizza")
+sentence="I loVe nacHos"
+print(sentence.lower().islower())
+print(sentence.islower())#retern to the original string
+print(sentence.upper())
+print(len(sentence))
+print(sentence.replace("nacHos","hamburgers"))
+print(sentence.index("V"))# start with 0 not 1
+print(sentence.index("loVe"))# index of l
+print("I love pizza\nand nacHos\n and hamburgers")
