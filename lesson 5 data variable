@@ -1,0 +1,26 @@
+person_name="mr tom" # string variable
+object_1="car"
+object_1_color="red"
+object_name_2="house"
+object_2_age="20 years old"
+
+print("Hello " +person_name)
+print("i am very interested by your "+object_1)
+print("it is "+object_1_color)
+print("also "+person_name+" is your "+object_name_2+" older than "+object_2_age)
+print("thank you "+person_name)
+
+person_name="mr jeck"
+object_1="car"
+object_1_color="red"
+object_name_2="duplex"
+object_2_age="10 years old"
+
+print("\nHello " +person_name)
+print("i am very interested by your "+object_1)
+print("it is "+object_1_color)
+print("also "+person_name+" is your "+object_name_2+" older than "+object_2_age)
+print("thank you "+person_name)
+having_a_house=False #bool variable
+if having_a_house:
+    print("i am own a house")
