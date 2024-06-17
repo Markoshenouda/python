@@ -1,0 +1,15 @@
+price_produt_1= input( "whet is the price of the produt 1: ")
+quantity_produt_1=input("whit is the quantity of the produt 1: ")
+price_produt_2=input( "whet is the price of the produt 2: ")
+quantity_produt_2=input("whit is the quantity of the produt 2: ")
+price_produt_3=input( "whet is the price of the produt 3: ")
+quantity_produt_3=input("whit is the quantity of the produt 3: ")
+
+result_product_1=float(price_produt_1)*float(quantity_produt_1)
+result_product_2=float(price_produt_2)*float(quantity_produt_2)
+result_product_3=float(price_produt_3)*float(quantity_produt_3)
+print(result_product_1)
+print(result_product_2)
+print(result_product_3)
+sum=result_product_1+result_product_3+result_product_2
+print("the sum of all produts is : "+str(sum))
