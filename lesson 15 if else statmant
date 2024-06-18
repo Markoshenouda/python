@@ -1,0 +1,71 @@
+i_want_to_eat=False #lesson 15
+i_want_to_drink=True
+
+if i_want_to_eat:
+    print("let's have a pizze and drink")
+elif i_want_to_drink:
+    print("let's have a drink")
+else :
+    print("i'm good")
+
+if i_want_to_eat or i_want_to_drink:
+    print("let's have a pizze and drink")
+else :
+    print("i'm good")
+
+mark1 = 5
+mark2 = 5
+mark3 =2
+if mark1 == mark2 !=mark3:
+    print("yes")
+else:
+    print("no")
+
+var1="blue"  #lesson 16
+var2="red"
+var3="black"
+var4="yellow"
+if var1==var2:
+    print("yes it is the same color")
+else:
+    print("no it isn't the same color")
+
+pers1_name=input("what is your name :")
+pers1_wallet= input("how much money do you have :")
+
+pers2_name=input("what is your name :")
+pers2_wallet= input("how much money do you have :")
+
+pers3_name=input("what is your name :")
+pers3_wallet= input("how much money do you have :")
+
+if float(pers1_wallet>pers2_wallet) and float(pers1_wallet>pers2_wallet):
+    print(pers1_name+" is the richest")
+elif float(pers2_wallet > pers1_wallet) and float(pers2_wallet > pers3_wallet):
+        print(pers2_name + " is the richest")
+elif float(pers3_wallet > pers1_wallet) and float(pers3_wallet > pers2_wallet):
+         print(pers3_name + " is the richest")
+                                                   #lessson 17
+def question():
+    rules=input("you need to answer every question by yes or on do you understand")
+    if rules=="no":
+        return print("try again")
+    else:
+        print("nest question")
+    question1=input("are you hungry? ")
+    if question1=="no":
+        return print("than let's go for a walk ")
+    else:
+        print("next question")
+    question2=input("Do you want to eat at restaurant ?")
+    if question2 == "no":
+        return print("come eat at my place ")
+    else:
+        print("next question")
+    question3=input("Do you want to eat pizza ? ")
+    if question3 == "no":
+        return print("let's go eat a burger than  ")
+    else:
+        print("let's go eat a pizza")
+
+question()
