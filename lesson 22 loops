@@ -1,0 +1,38 @@
+variable_1=25
+variable_2=2000
+i=0
+while variable_1<variable_2:
+    i+=1 #Number of iteration.
+    print (variable_1)
+    print("not good")
+    variable_1+=5
+print(i)
+
+colors=["blue","red","black","green","orange"]
+for x in colors:
+    print(x)
+for letter in "blue":
+    print(letter)
+
+for one_color in colors:
+    print(one_color)
+    if one_color=="black":
+        break
+for number in range(20,30):
+    print(number)
+
+our_password="pass123"
+your_answer=""
+number_of_try=0
+number_max_of_try=8
+Max_try="not reached"
+while your_answer!=our_password and Max_try!="reached" :
+    if number_of_try<number_max_of_try:
+        your_answer=input("enter the password")
+        number_of_try+=1
+    else:
+        Max_try="reached"
+if Max_try=="reached":
+    print("account blocked")
+else:
+    print("password is True ")
