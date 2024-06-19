@@ -1,0 +1,119 @@
+def crypted(sentence):
+    encryption=""
+    for letter in sentence :
+        if letter in "Aa":
+            encryption=encryption+"<"
+        elif letter in "Bb":
+             encryption = encryption + ">"
+        elif letter in "Cc":
+              encryption = encryption + "?"
+        elif letter in "Dd":
+             encryption = encryption + "/"
+        elif letter in "Ee":
+              encryption = encryption + "|"
+        elif letter in "Ff":
+             encryption = encryption + "."
+        elif letter in "Gg":
+              encryption = encryption + "`"
+        elif letter in "Hh":
+             encryption = encryption + ":"
+        elif letter in "Ii":
+              encryption = encryption + "'"
+        elif letter in "Jj":
+             encryption = encryption + "!"
+        elif letter in "kK":
+              encryption = encryption + "@"
+        elif letter in "Ll":
+             encryption = encryption + "#"
+        elif letter in "Mm":
+              encryption = encryption + "$"
+        elif letter in "Nn":
+             encryption = encryption + "%"
+        elif letter in "Oo":
+              encryption = encryption + "^"
+        elif letter in "Pp":
+             encryption = encryption + "&"
+        elif letter in "Qq":
+              encryption = encryption + "*"
+        elif letter in "Rr":
+             encryption = encryption + "("
+        elif letter in "Ss":
+              encryption = encryption + ")"
+        elif letter in "Tt":
+             encryption = encryption + "-"
+        elif letter in "Uu":
+              encryption = encryption + "_"
+        elif letter in "Vv":
+             encryption = encryption + "+"
+        elif letter in "Ww":
+              encryption = encryption + "="
+        elif letter in "Xx":
+             encryption = encryption + "~"
+        elif letter in "Yy":
+              encryption = encryption + "}"
+        elif letter in "Zz":
+              encryption = encryption + "{"
+        else:
+            encryption=encryption+letter
+    return encryption
+def discrypted(sentence):
+    disencryption=""
+    for letter in sentence :
+        if letter in "<":
+            disencryption=disencryption+"a"
+        elif letter in ">":
+             disencryption = disencryption + "b"
+        elif letter in "?":
+              disencryption = disencryption + "c"
+        elif letter in "/":
+             disencryption = disencryption + "d"
+        elif letter in "|":
+              disencryption = disencryption + "e"
+        elif letter in ".":
+             disencryption = disencryption + "f"
+        elif letter in "`":
+              disencryption = disencryption + "g"
+        elif letter in ":":
+             disencryption = disencryption + "h"
+        elif letter in "'":
+              disencryption = disencryption + "i"
+        elif letter in "!":
+             disencryption = disencryption + "j"
+        elif letter in "@":
+              disencryption = disencryption + "k"
+        elif letter in "#":
+             disencryption = disencryption + "l"
+        elif letter in "$":
+              disencryption = disencryption + "m"
+        elif letter in "%":
+             disencryption = disencryption + "n"
+        elif letter in "^":
+              disencryption = disencryption + "o"
+        elif letter in "&":
+             disencryption = disencryption + "p"
+        elif letter in "*":
+              disencryption = disencryption + "q"
+        elif letter in "(":
+             disencryption = disencryption + "r"
+        elif letter in ")":
+              disencryption = disencryption + "s"
+        elif letter in "-":
+             disencryption = disencryption + "t"
+        elif letter in "_":
+              disencryption = disencryption + "u"
+        elif letter in "+":
+             disencryption = disencryption + "v"
+        elif letter in "=":
+              disencryption = disencryption + "w"
+        elif letter in "~":
+             disencryption = disencryption + "x"
+        elif letter in "}":
+              disencryption = disencryption + "y"
+        elif letter in "{":
+              disencryption = disencryption + "z"
+        else:
+            disencryption=disencryption+letter
+    return disencryption
+cr=crypted(input("enter the  message : "))
+print(cr)
+print(discrypted(cr))
