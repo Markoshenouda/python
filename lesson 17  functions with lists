@@ -1,0 +1,22 @@
+list=["pizza","burger","sushi","juice","fries"]
+prices=[1.25,6.5,.12,10.9,6.4]
+list.insert(2,"spaghtti")
+print(list[0])#print index 0
+print(list)#print list
+prices.sort()
+list.append(prices)
+print(prices)
+print(list)
+prices.extend([2,4,6])
+print(prices)
+print(max(prices))
+print(min(prices))
+print(len(prices))
+color=["red","yellow","blue"]
+color.insert(2,"pink")
+print(color)
+color=("red","yellow","blue")
+shapes=("square","triangle","circle")
+add=color+shapes#used when use () instand of []
+print(add)
+paris_coord=(135,124)
