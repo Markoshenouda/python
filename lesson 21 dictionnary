@@ -1,0 +1,15 @@
+
+colors={"B":R"blue",
+        "R":"red",
+        "O":"orange"
+}
+print(colors.get("R","stop"))
+print(colors.get("m","stop"))#return stop default value
+
+names={152:("the name of employee is: mark and the salary is : 3000$" ),
+        254:("the name of employee is: mina and the salary is : 6000$" ),
+       524:("the name of employee is: Ali and the salary is : 12000$" ),
+        754:("the name of employee is: jack and the salary is : 7500$" )
+}
+ID=float(input("Please enter the ID of the employee "))
+print(names.get(ID,"the id is not exist "))
