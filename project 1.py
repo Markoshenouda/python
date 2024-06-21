@@ -1,22 +1,22 @@
-list=["pizza","burger","sushi","juice","fries"]
-prices=[1.25,6.5,.12,10.9,6.4]
-list.insert(2,"spaghtti")
-print(list[0])#print index 0
-print(list)#print list
-prices.sort()
-list.append(prices)
-print(prices)
-print(list)
-prices.extend([2,4,6])
-print(prices)
-print(max(prices))
-print(min(prices))
-print(len(prices))
-color=["red","yellow","blue"]
-color.insert(2,"pink")
-print(color)
-color=("red","yellow","blue")
-shapes=("square","triangle","circle")
-add=color+shapes#used when use () instand of []
-print(add)
-paris_coord=(135,124)
+
+import pytesseract
+from PIL import Image
+
+# Set the path to Tesseract
+pytesseract.pytesseract.tesseract_cmd=r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+def convert():
+    # Get the image filename from user input
+    img=Image.open(input("enter the name of photo : \n")+".png")
+    try:
+        text = pytesseract.image_to_string(img)
+        # Open the image
+        # Extract text from the image
+        print("Extracted text: \n ")
+        # Print the extracted text
+        print(text)
+    except FileNotFoundError:
+         print("Error: Image file '{img_filename}' not found. ")
+convert()
+# Call the function
+
